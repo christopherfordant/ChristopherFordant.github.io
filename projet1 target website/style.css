@@ -1,0 +1,71 @@
+
+*{
+    margin: -1px;
+    padding: 0px;
+    background-color: rgba(7, 5, 10, 0.803);
+}
+.container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Btn-red {
+	display: flex;
+	background-color: red;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+    position:relative;
+    animation-name: red;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes red{
+    0%  {left: 0px; top: 0px;}
+    /* 25%  {left: 200px; top: 0px;}
+    50%  {left: 200px; top: 200px;}
+    75%  {left: 0px; top: 200px;}
+    100%  {left: 0px; top: 0px;} */
+}
+
+.Btn-blue {
+	
+	background-color: blue;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;	
+    position:relative;
+    animation-name: blue;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blue{
+    0%  {left: 0px; top: 0px;}
+    /* 25%  {left: 200px; top: 0px;}
+    50%  {left: 200px; top: 200px;}
+    75%  {left: 0px; top: 200px;}
+    100%  {left: 0px; top: 0px;} */
+}
+
+.Btn-pink {
+	
+	background-color: pink;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+    position:relative;
+    animation-name: pink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pink {
+    0%  {left: 0px; top: 0px;}
+    25%  {left: 200px; top: 0px; height: 100px; width: 100px; color: blueviolet;}
+    50%  {left: 200px; top: 200px;}
+    75%  {left: 0px; top: 200px;}
+    100%  {left: 0px; top: 0px;}
+}
